@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,200..800;1,200..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Patrick+Hand&family=Quicksand:wght@300..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
 
 * {
     margin: 0;
@@ -13,7 +15,7 @@ body {
     width: 90%;
     margin: auto;
 }
-.logo {
+.logo img {
     background-color: white;
     padding: 10px;
     width: 100px;
@@ -67,4 +69,101 @@ body {
     font-weight: bold;
     text-decoration: underline;
     margin-bottom: 10px;
+}
+
+
+/* --- Subpage Content Weather Report --- */
+#weather_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr;
+    place-items: center;
+    font-family: "Quicksand";
+    color: #5db2d4;
+    
+}
+
+#weather_grid h1 {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    font-weight: bold;
+    text-shadow: 0 0 5px black;
+}
+
+#kelly_canyon {
+    grid-column: 1 / 2;
+    grid-row:  2 / 3;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#kelly_canyon h3 {
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+#kelly_canyon img {
+    width: 90%;
+    height: 80%;
+    border-radius: 25px;
+}
+
+#kelly_canyon a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+}
+
+#grand_targhee {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#grand_targhee h3 {
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+#grand_targhee img {
+    width: 90%;
+    height: 80%;
+    border-radius: 25px;
+}
+
+#grand_targhee a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
+}
+
+#jackson_hole {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+    width: 300px;
+    height: 500px;
+    background-color: black;
+    border-radius: 25px;
+}
+
+#jackson_hole h3 {
+    padding-bottom: 22px;
+    padding-top: 22px;
+}
+
+#jackson_hole img {
+    width: 90%;
+    height: 80%;
+    border-radius: 25px;
+}
+
+#jackson_hole a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aqua;
 }
